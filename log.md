@@ -70,3 +70,20 @@ bmi <= 30 ? "Overweight" : "Obese";
 
 > This mornings code challenge was interesting. I have done these before and completed how I know how to. I did see another example that I really liked the look of. I like the use of ternary statements and like the implementation above. I will have to try that next time.
 > For my portfolio, I used axios to get the data from my API instead of the standard fetch. I like the syntax a lot better and it looks cleaner along with the async/await function.
+
+## Day 3: February, 05, 2022
+
+### Today's Progress:
+
+> I'm driving up north today and started very early. I started with a code challenge very early this morning! My answer is below:
+
+```
+function noSpace(x){
+return x.replace(/\s/g, '')
+}
+```
+
+### Thoughts:
+
+> This mornings code challenge was simple. We had to replace the white space of a string and then join the string. I originally thought or splitting and then joining, but I remember seeing it done in a bizarre way. I experimented with some combinations before finding my notes on the method above. I'm enjoying the fact that I'm recalling problems and their solutions!
+> Even though I'm driving a lot today, I hope to do more work on my portfolio!
