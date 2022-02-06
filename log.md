@@ -87,3 +87,42 @@ return x.replace(/\s/g, '')
 
 > This mornings code challenge was simple. We had to replace the white space of a string and then join the string. I originally thought or splitting and then joining, but I remember seeing it done in a bizarre way. I experimented with some combinations before finding my notes on the method above. I'm enjoying the fact that I'm recalling problems and their solutions!
 > Even though I'm driving a lot today, I hope to do more work on my portfolio!
+
+## Day 4: February, 06, 2022
+
+### Today's Progress:
+
+> Successfully made it back to the North! To start my morning I did not one, but two code challenges! I did not know there was an endsWith() method so I'm glad I learned that today! My challenges are below:
+
+This was my solution for problem one:
+
+```
+function solution(str, ending){
+  return ending === str.substring(str.length - ending.length)
+}
+```
+
+This was the top solution for problem one:
+
+```
+function solution(str, ending){
+  return str.endsWith(ending);
+}
+```
+
+This was the solution for problem two:
+
+```
+function SeriesSum(n)
+{
+  for (i = 0, j =0; j < n; j++) {
+    i += 1 / (1+j*3)
+  }
+  return String(i.toFixed(2))
+}
+```
+
+### Thoughts:
+
+> I graduated to the 7kyu level in CodeWars and my first problem was on the easier side, while the second problem was a lot trickier! I did need help to find out the solution. I was happy with how I was able to find the answers and use tools when I didn't know exactly what to do. It is teaching me that I still need a lot of practice.
+> The rest of today will be dedicated to portfolio work and homework! I am implementing new photos and a page turning style that hopefully works!
