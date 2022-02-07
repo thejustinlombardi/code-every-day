@@ -126,3 +126,58 @@ function SeriesSum(n)
 
 > I graduated to the 7kyu level in CodeWars and my first problem was on the easier side, while the second problem was a lot trickier! I did need help to find out the solution. I was happy with how I was able to find the answers and use tools when I didn't know exactly what to do. It is teaching me that I still need a lot of practice.
 > The rest of today will be dedicated to portfolio work and homework! I am implementing new photos and a page turning style that hopefully works!
+
+## Day 5: February, 07, 2022
+
+### Today's Progress:
+
+> Happy Monday! Today had some great code wars challenges! I completed two. The answers and the top solutions are below. First problem had to make a positive number negative and if it was zero or already negative, do nothing. The second problem needed to validate a pin that was exactly 4 or 6 digits and could only contain digits. Have a look!
+
+This was my solution for problem one:
+
+```
+function makeNegative(num) {
+  if (num <=0) {
+    return num
+  } else {
+    return num * -1
+  }
+}
+```
+
+This was the top solution for problem one:
+
+```
+function makeNegative(num) {
+  return -Math.abs(num);
+}
+```
+
+This was the solution for problem two:
+
+```
+function validatePIN (pin) {
+  if (pin.length === 4 || pin.length === 6){
+    if (pin.match(/^[0-9]+$/) != null){
+      return true
+    } else{
+      return false
+    }
+  }else {
+    return false
+  }
+}
+```
+
+This was the top solution for problem two:
+
+```
+function validatePIN(pin) {
+  return /^(\d{4}|\d{6})$/.test(pin)
+}
+```
+
+### Thoughts:
+
+> I find myself wanting to know what each new method I see does. The curiosity I have been having for everything I've been working on is so great! I want to keep learning, understanding, and training!
+> I have also been working on my portfolio. I hit a huge landmark last night / this morning where I was able to DRY up my portfolio and complete the draft of mobile and desktop versions. I need to now refactor the styling and adjust for ultra wide monitors!
