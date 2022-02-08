@@ -181,3 +181,52 @@ function validatePIN(pin) {
 
 > I find myself wanting to know what each new method I see does. The curiosity I have been having for everything I've been working on is so great! I want to keep learning, understanding, and training!
 > I have also been working on my portfolio. I hit a huge landmark last night / this morning where I was able to DRY up my portfolio and complete the draft of mobile and desktop versions. I need to now refactor the styling and adjust for ultra wide monitors!
+
+## Day 6: February, 08, 2022
+
+### Today's Progress:
+
+> Happy Tuesday! I did one code challenge this morning that was tough! It allowed me to use the reducer method which I still need to practice with. Also, I will be continuing to refactor my portfolio. I also got my first interview today! I'm so excited!
+
+This was my solution for problem one:
+
+```
+function findEvenIndex(arr){
+  let left = 0;
+  let right = 0;
+  const reducer = (accumulator, currentValue) => accumulator + currentValue;
+
+  if(arr.length == 0){
+    return -1;
+  }
+
+  for(let i = 0; i < arr.length; i++){
+    if(i == 0){
+      right = arr.slice(1).reduce(reducer, 0);
+      if(right === i){
+        return i;
+      }
+    }else{
+      left = arr.slice(0, i).reduce(reducer, 0);
+      right = arr.slice(i+1).reduce(reducer, 0);
+      if(left == right){
+        return i;
+      }
+    }
+  }
+
+  return -1;
+}
+```
+
+This was the top solution for problem one:
+
+```
+const sum = (a, from, to) => a.slice(from, to).reduce((a, b) => a + b, 0)
+const findEvenIndex = a => a.findIndex((el, i) => sum(a, 0, i) === sum(a, i + 1));
+```
+
+### Thoughts:
+
+> I had trouble this morning, but that could have been because I had other things on my mind. Sometimes it's hard to find where to start with a problem. I want to study all of the methods and figure them out on my own as well.
+> It is now time to study everything for my upcoming interview!!
