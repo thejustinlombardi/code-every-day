@@ -230,3 +230,41 @@ const findEvenIndex = a => a.findIndex((el, i) => sum(a, 0, i) === sum(a, i + 1)
 
 > I had trouble this morning, but that could have been because I had other things on my mind. Sometimes it's hard to find where to start with a problem. I want to study all of the methods and figure them out on my own as well.
 > It is now time to study everything for my upcoming interview!!
+
+## Day 7: February, 09, 2022
+
+### Today's Progress:
+
+> I started the day with another code challenge. I got very far in my first attempt at the question but my tests kept failing. I realized that I was trying to use forEach which kept breaking it. I also have never used .repeat() before and I saw that in the top solution. It's so great to see how others answer these questions!!
+
+This was my solution for problem one:
+
+```
+function accum(s) {
+  let arr = []
+  for(let i=0; i<s.length; i++) {
+    arr.push(upLow(s[i], i +1))
+    }
+    return arr.join('-')
+  }
+function upLow(s, num){
+    let letter = s.toUpperCase()
+    while (letter.length !== num) {
+    letter += s.toLowerCase()
+ }
+ return letter
+  }
+```
+
+This was the top solution for problem one:
+
+```
+function accum(s) {
+  return s.split('').map((c, i) => (c.toUpperCase() + c.toLowerCase().repeat(i))).join('-');
+}
+```
+
+### Thoughts:
+
+> I got very close with my first attempt but did need to look up additional methods on how I could do this differently. I think my first mistake was trying to do this in a forEach rather then a regular for loop.
+> I have been studying and also trying to teach myself Angular. I'm still in the early days of it, but the concept and way that it's structured is very interesting! I'll comment more on that when I get further along.
