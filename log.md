@@ -268,3 +268,22 @@ function accum(s) {
 
 > I got very close with my first attempt but did need to look up additional methods on how I could do this differently. I think my first mistake was trying to do this in a forEach rather then a regular for loop.
 > I have been studying and also trying to teach myself Angular. I'm still in the early days of it, but the concept and way that it's structured is very interesting! I'll comment more on that when I get further along.
+
+## Day 8: February, 10, 2022
+
+### Today's Progress:
+
+> I started the day with about an hour of my Udemy course on Angular. I have really been liking Angular and learning how to use it! I also really enjoy the Udemy course! I feel like I'm getting an incredibly deep understanding of framework! This morning's CodeWars challenge was on the simple side, but my solution used a method I learned from yesterday's challenge! This is what I'm talking about where you learn so much by just seeing how something else is done. It was also the top solution!
+
+This was my solution for problem one:
+
+```
+function repeatStr (n, s) {
+  return s.repeat(n);
+}
+```
+
+### Thoughts:
+
+> I'm loving Angular and learning a new language on my own. With GA coming to a close, I want to implement Angular in our Project 4 and I also want to have an understanding of it so I can chat about it in interviews.
+> My focus today in class is authentication in django. I look forward to that because I would love to implement it in our project four as well! We are incredibly ambitious, but I really feel like we can pull this off!
