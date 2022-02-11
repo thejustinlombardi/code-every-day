@@ -287,3 +287,37 @@ function repeatStr (n, s) {
 
 > I'm loving Angular and learning a new language on my own. With GA coming to a close, I want to implement Angular in our Project 4 and I also want to have an understanding of it so I can chat about it in interviews.
 > My focus today in class is authentication in django. I look forward to that because I would love to implement it in our project four as well! We are incredibly ambitious, but I really feel like we can pull this off!
+
+## Day 9: February, 11, 2022
+
+### Today's Progress:
+
+> I started the day with about an hour of my Udemy course on Algorithms and Data Structures and then some code challenges. The challenges were on the easier side. The more practice I get, the better I am at remembering how to get to each problem. That plus Google helps when I need to remember the parameters of a method.
+
+This was my solution for problem one:
+
+```
+var isSquare = function(n){
+  return n >= 0 && Math.sqrt(n) % 1 === 0;
+}
+```
+
+This was my solution for problem two:
+
+```
+function getCount(str) {
+  var vowelsCount = 0;
+  let vowels = ['a', 'i','e','o','u']
+  for (let char of str) {
+    if (vowels.includes(char)) {
+      vowelsCount += 1
+    }
+  }
+
+  return vowelsCount;
+}
+```
+
+### Thoughts:
+
+> I have full faith that we can pull off this project four! Angular has been fun and if we each tackle sections, it won't be so daunting! That will be most of my updates for the next week, plus some small challenges as well!
