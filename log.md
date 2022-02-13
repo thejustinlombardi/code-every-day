@@ -321,3 +321,13 @@ function getCount(str) {
 ### Thoughts:
 
 > I have full faith that we can pull off this project four! Angular has been fun and if we each tackle sections, it won't be so daunting! That will be most of my updates for the next week, plus some small challenges as well!
+
+## Day 10: February, 11, 2022
+
+### Today's Progress:
+
+> Today was great! I id more work in my Udemy course and also had my first coding interview today!! It was so much fun and, no matter the outcome, It was such a great learning experience! I also tried to debug some of our backend problems for our Project 4. I wasn't completely successful, but I got a lot closer! Not much code to share today
+
+### Thoughts:
+
+> Today proved that I truly do love to code and love to learn how to code. I feel like I've been on the best path and I'm only going to continue to grow! Code snippets will be shared tomorrow!
