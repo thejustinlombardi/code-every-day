@@ -322,7 +322,7 @@ function getCount(str) {
 
 > I have full faith that we can pull off this project four! Angular has been fun and if we each tackle sections, it won't be so daunting! That will be most of my updates for the next week, plus some small challenges as well!
 
-## Day 10: February, 11, 2022
+## Day 10: February, 12, 2022
 
 ### Today's Progress:
 
@@ -331,3 +331,32 @@ function getCount(str) {
 ### Thoughts:
 
 > Today proved that I truly do love to code and love to learn how to code. I feel like I've been on the best path and I'm only going to continue to grow! Code snippets will be shared tomorrow!
+
+## Day 11: February, 13, 2022
+
+### Today's Progress:
+
+> Today was an easy day. Fixed a few bugs for our Project 4 backend and worked on some Codewars challenges. Felt a little tired, but was still able to put in some work.
+
+This was my solution for problem one:
+
+```
+function booleanToString(b){
+  return b ? 'true' : 'false'
+}
+```
+
+This was my solution for problem two:
+
+```
+function removeSmallest(numbers) {
+  let smallestNum = Math.min.apply(Math,numbers);
+  let index = numbers.indexOf(smallestNum)
+  numbers.splice(index, 1)
+  return numbers
+}
+```
+
+### Thoughts:
+
+> I am so close to getting some of these answers. I know what needs to be done, but now it's time to study and refine my skills so I can call upon these methods without having to Google the methods.
