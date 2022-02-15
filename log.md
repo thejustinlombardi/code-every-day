@@ -360,3 +360,13 @@ function removeSmallest(numbers) {
 ### Thoughts:
 
 > I am so close to getting some of these answers. I know what needs to be done, but now it's time to study and refine my skills so I can call upon these methods without having to Google the methods.
+
+## Day 12: February, 14, 2022
+
+### Today's Progress:
+
+> Today was a lot. We deployed our backend and have been swamped in Angular. It is so much fun, but a very different way to approach things. This has been teaching us so much and I'm so glad we decided to challenge ourselves this way.
+
+### Thoughts:
+
+> We are currently learning how to fetch data with Angular! Wish us luck!
