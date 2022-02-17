@@ -370,3 +370,9 @@ function removeSmallest(numbers) {
 ### Thoughts:
 
 > We are currently learning how to fetch data with Angular! Wish us luck!
+
+## Day 13-16: February, 14, 2022
+
+### This Week's Progress and Thoughts:
+
+> This week was a lot. We did our best to get Angular working, but not being able to pass data was hurting us and we needed to make a decision...Do we continue with possibility of failure, or do we keep it safe and go back to React? We decided to go back to React so we could deliver something great for our final project. It has come along so well. I've been coding a lot the past few days and have been burning the midnight oil. Needless to say, I haven't had much time for code challenges, but I have been coding every day! Today is also my last work day in General Assembly's coding boot camp. What a crazy 3 months! I went from zero coding experience to wanting to know as much as I can! I loved this experience and cannot wait for what my future has in store!
