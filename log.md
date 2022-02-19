@@ -376,3 +376,25 @@ function removeSmallest(numbers) {
 ### This Week's Progress and Thoughts:
 
 > This week was a lot. We did our best to get Angular working, but not being able to pass data was hurting us and we needed to make a decision...Do we continue with possibility of failure, or do we keep it safe and go back to React? We decided to go back to React so we could deliver something great for our final project. It has come along so well. I've been coding a lot the past few days and have been burning the midnight oil. Needless to say, I haven't had much time for code challenges, but I have been coding every day! Today is also my last work day in General Assembly's coding boot camp. What a crazy 3 months! I went from zero coding experience to wanting to know as much as I can! I loved this experience and cannot wait for what my future has in store!
+
+## Day 17: February, 18, 2022
+
+### Today's Progress:
+
+> I graduated from General Assembly today! What a surreal feeling and I couldn't be happier!! Our project four turned out amazing and I'm so proud of my teammates and all of my classmates for doing so well during this course!! I still managed to get in a Codewar challenge and I did spend part of the morning getting out code ready for presentation. Codewar challenge below!
+
+The solution for the problem was:
+
+```
+function comp(array1, array2){
+  if (array1 === null || array2 === null) return false;
+  array1.sort((a, b) => a - b);
+  array2.sort((a, b) => a - b);
+  return array1.map(v => v * v).every((v, i) => v == array2[i]);
+
+}
+```
+
+### Thoughts:
+
+> I had to evaluate whether the values in the first array squared equaled the values in the second array. This was definitely tricky and I got pretty far on my own but I kept running into a snag when figuring how to return it. I did consult Google as I'm still getting used to these types of problems. My main focus is to just get the reps in as much as I can.
