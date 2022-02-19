@@ -371,7 +371,7 @@ function removeSmallest(numbers) {
 
 > We are currently learning how to fetch data with Angular! Wish us luck!
 
-## Day 13-16: February, 14, 2022
+## Day 13-16: February, 17, 2022
 
 ### This Week's Progress and Thoughts:
 
@@ -398,3 +398,25 @@ function comp(array1, array2){
 ### Thoughts:
 
 > I had to evaluate whether the values in the first array squared equaled the values in the second array. This was definitely tricky and I got pretty far on my own but I kept running into a snag when figuring how to return it. I did consult Google as I'm still getting used to these types of problems. My main focus is to just get the reps in as much as I can.
+
+## Day 18: February, 19, 2022
+
+### Today's Progress:
+
+> Started the day with some Code wars challenges and will be studying more of the Data Structures and Algorithms course as well.
+
+The solution for the problem was:
+
+```
+function lovefunc(flower1, flower2){
+  if ((flower1 + flower2) % 2 === 1) {
+    return true
+  } else {
+    return false
+  }
+}
+```
+
+### Thoughts:
+
+> Maybe it was because I'm still coming down from graduating and the intensity of the past three months, but make sure you read the directions of the prompts! I was curious as to why my function wasn't working and it was simply because I didn't fully read the prompt. Check every detail!!
