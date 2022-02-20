@@ -420,3 +420,21 @@ function lovefunc(flower1, flower2){
 ### Thoughts:
 
 > Maybe it was because I'm still coming down from graduating and the intensity of the past three months, but make sure you read the directions of the prompts! I was curious as to why my function wasn't working and it was simply because I didn't fully read the prompt. Check every detail!!
+
+## Day 19: February, 20, 2022
+
+### Today's Progress:
+
+> Today was filled with the Data Structures and Algorithms course from Udemy and some Code wars challenges!
+
+The solution for the problem was:
+
+```
+function numberToString(num) {
+  return num.toString();
+}
+```
+
+### Thoughts:
+
+> Practicing challenges in Code wars is still fun and I keep learning from them. I definitely like watching the DS&A videos with my fiance and having to explain what is happening. This method is proving more and more what concepts I understand and what concepts I need more work on. She is picking up these methods really quickly, too! She's a natural!
