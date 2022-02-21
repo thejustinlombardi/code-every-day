@@ -438,3 +438,49 @@ function numberToString(num) {
 ### Thoughts:
 
 > Practicing challenges in Code wars is still fun and I keep learning from them. I definitely like watching the DS&A videos with my fiance and having to explain what is happening. This method is proving more and more what concepts I understand and what concepts I need more work on. She is picking up these methods really quickly, too! She's a natural!
+
+## Day 20: February, 21, 2022
+
+### Today's Progress:
+
+> Today was filled with the Data Structures and Algorithms course and Angular course from Udemy and some Code wars challenges! The problem was finding the unique value in an array. I thought I was on the right track, but my approach was wrong.
+
+This is what I was trying to do:
+
+```
+function findUniq(arr) {
+  let uniq = {},
+      result;
+  arr.forEach(function(item) {
+    uniq[item] = uniq[item] + 1 || 1;
+  });
+  Object.keys(uniq).forEach(function(key) {
+    if (uniq[key] == 1) {
+      result = key;
+    }
+  });
+
+  return parseFloat(result);
+}
+```
+
+The solution for the problem was:
+
+```
+function findUniq(arr) {
+  return +arr.filter( (value) => { return arr.indexOf(value) == arr.lastIndexOf(value) } );
+}
+```
+
+The solution I understood more was:
+
+```
+function findUniq(arr) {
+  arr.sort((a,b)=>a-b);
+  return arr[0]==arr[1]?arr.pop():arr[0]
+}
+```
+
+### Thoughts:
+
+> I try my hardest in the Code Challenges. Even if I don't get the answer, the thing that I'm proud of is that I understand what needs to be done, but I don't know the exact method yet. That's why I'm looking at the problems, understanding them, looking for examples, studying the answers, and then writing about them so I can keep track of how it is all done. I used to think of it as cheating, but if I don't know how to do something, it shows I need more practice and more understanding.
