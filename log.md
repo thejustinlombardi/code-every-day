@@ -484,3 +484,13 @@ function findUniq(arr) {
 ### Thoughts:
 
 > I try my hardest in the Code Challenges. Even if I don't get the answer, the thing that I'm proud of is that I understand what needs to be done, but I don't know the exact method yet. That's why I'm looking at the problems, understanding them, looking for examples, studying the answers, and then writing about them so I can keep track of how it is all done. I used to think of it as cheating, but if I don't know how to do something, it shows I need more practice and more understanding.
+
+## Day 21: February, 22, 2022 (My Fiance's Birthday!!!)
+
+### Today's Progress:
+
+> Today was again filled with Data Structures and Algorithms work in my Udemy course. We focused on Linear Search and Binary Search. Both extremely wonderful topics and I enjoyed diving deeper into these concepts.
+
+### Thoughts:
+
+> I posted about this on LinkedIn, but I want to say it here, too. I feel like I'm very close to this content sometimes. For example, this morning when we were working on binary search, my code kept returning values that were so close to the answer, but still wouldn't pass their tests. I wasn't understanding why until my fiance took a look at it and said, "Wait, shouldn't that be <= instead of just <"? I was floored. Today I learned that I need to take a step back when I've been in a problem for too long.
