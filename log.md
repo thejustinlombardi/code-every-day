@@ -516,3 +516,73 @@ return -1;
 ### Thoughts:
 
 > I'm thrilled with the progress I'm making with the Data Structures and also the different projects I'm working on. I also love being a TA and helping people in class! Today was a truly wonderful day.
+
+## Day 23: February, 24, 2022
+
+### Today's Progress:
+
+> I went on a little tear with CodeWars today. I was getting in the zone and feeling really good about the challenges so I kept going. I continuously want to get better and keep working hard towards a higher kyu! I also worked on my portfolio, made small edits to our Project 4, and applied to a few jobs. Below are my solutions to the challenges I did.
+
+```
+function grow(x){
+return x.reduce((acc, curr) => acc * curr, 1)
+}
+```
+
+```
+function squareDigits(num){
+let newNum = num.toString()
+let numArr = newNum.split('')
+let sqArr = [];
+numArr.forEach((e)=>{
+sqArr.push(e**2)
+})
+return parseInt(sqArr.join(''))
+}
+```
+
+```
+function duplicateEncode(word){
+let chars=[...word.toLowerCase()];
+let dupList = chars.filter((char,index,chars)=>chars.indexOf(char)!==index);
+let dupSet = new Set(dupList);
+let uniqueDupList = [...dupSet];
+let resultString = "";
+for (let i=0, n=chars.length; i < n; ++i ) {
+if(uniqueDupList.includes(chars[i])) {
+resultString += ")";
+} else {
+resultString += "(";
+}
+}
+return resultString;
+}
+```
+
+```
+function DNAtoRNA(dna) {
+return dna.split('T').join('U');
+}
+```
+
+```
+function betterThanAverage(classPoints, yourPoints) {
+let sum = 0;
+for(i = 0; i < classPoints.length; i++ ){
+sum += classPoints[i]
+}
+let avg = sum / classPoints.length;
+return yourPoints > avg ? true : false;
+}
+```
+
+```
+function squareSum(numbers){
+return numbers.reduce((acc, curr)=> acc + (curr ** 2), 0)
+}
+
+```
+
+### Thoughts:
+
+> I was so glad I got to use the reduce method so much today because I do prefer to use it and I wanted more practice with it anyway. It feels great to be able to recall the syntax from memory now!
