@@ -494,3 +494,25 @@ function findUniq(arr) {
 ### Thoughts:
 
 > I posted about this on LinkedIn, but I want to say it here, too. I feel like I'm very close to this content sometimes. For example, this morning when we were working on binary search, my code kept returning values that were so close to the answer, but still wouldn't pass their tests. I wasn't understanding why until my fiance took a look at it and said, "Wait, shouldn't that be <= instead of just <"? I was floored. Today I learned that I need to take a step back when I've been in a problem for too long.
+
+## Day 22: February, 23, 2022
+
+### Today's Progress:
+
+> Today was again filled with Data Structures and Algorithms work in my Udemy course. We focused on Bubble Sort and I got an assessment to take home for another interview. Hopefully it goes well! Below is a solution to today's code challenge.
+
+```
+function findOdd(arr) {
+for(let i = 0; i < arr.length; i++){
+const count = arr.filter(value => value === arr[i]).length;
+if(count % 2 == 1){
+return arr[i];
+}
+}
+return -1;
+}
+```
+
+### Thoughts:
+
+> I'm thrilled with the progress I'm making with the Data Structures and also the different projects I'm working on. I also love being a TA and helping people in class! Today was a truly wonderful day.
