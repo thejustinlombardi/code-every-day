@@ -586,3 +586,9 @@ return numbers.reduce((acc, curr)=> acc + (curr ** 2), 0)
 ### Thoughts:
 
 > I was so glad I got to use the reduce method so much today because I do prefer to use it and I wanted more practice with it anyway. It feels great to be able to recall the syntax from memory now!
+
+## Day 24-29: March, 1, 2022
+
+### Today's Progress:
+
+> It has been an insane weekend. Unfortunately, I lost my streak on GitHub this weekend. I was away and mostly was listening to DS&A lectures but did not commit any code. Then I started on Monday with college again so I've been a little all over the place. But! I have been steady with my DS&A lectures while also diving back into Java!! This new course I'm working on has been teaching me so much! Java is a very interesting language once you get used to it. I will keep up to date on everything I've been learning! For today, I focused mostly on Java and setting up methods! I finally understand what static and void mean! After all of this time!
