@@ -592,3 +592,13 @@ return numbers.reduce((acc, curr)=> acc + (curr ** 2), 0)
 ### Today's Progress:
 
 > It has been an insane weekend. Unfortunately, I lost my streak on GitHub this weekend. I was away and mostly was listening to DS&A lectures but did not commit any code. Then I started on Monday with college again so I've been a little all over the place. But! I have been steady with my DS&A lectures while also diving back into Java!! This new course I'm working on has been teaching me so much! Java is a very interesting language once you get used to it. I will keep up to date on everything I've been learning! For today, I focused mostly on Java and setting up methods! I finally understand what static and void mean! After all of this time!
+
+## Day 30-37: March, 9, 2022
+
+### Today's Progress:
+
+> I have been continuing to practice my DS&A skills through Udemy and it has been going very smooth. The course has been informative and practicing Doubly Linked Lists and Binary Search Trees in JavaScript has been my focus. I'm feeling more comfortable with the formats and thinking of the real-world applications of the data structures.
+
+I also finished my first week back to Southern New Hampshire University in my Operating Platforms course where I'm designing UML Diagrams based off of Java code. I've been working through a complete Java course in Udemy as well to get a refresher which has been a blast!
+
+I'm starting a personal project for my poetry as well! I'm looking to design a blog style site that I can display all of my poems on. With over 200 poems I've written in the past few years, I finally can showcase them in a central place! I'll keep you posted on this as well!
