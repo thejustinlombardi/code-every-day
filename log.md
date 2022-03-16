@@ -602,3 +602,15 @@ return numbers.reduce((acc, curr)=> acc + (curr ** 2), 0)
 I also finished my first week back to Southern New Hampshire University in my Operating Platforms course where I'm designing UML Diagrams based off of Java code. I've been working through a complete Java course in Udemy as well to get a refresher which has been a blast!
 
 I'm starting a personal project for my poetry as well! I'm looking to design a blog style site that I can display all of my poems on. With over 200 poems I've written in the past few years, I finally can showcase them in a central place! I'll keep you posted on this as well!
+
+## Day 38-45: March, 16, 2022
+
+### Today's Progress:
+
+> My first talking point would be a big thank you to David Roberts for his course on Udemy which I just completed. I have followed his posts for some time now, and am glad I now have a great reference for my future. His course is FREE on Udemy until Friday, so be sure to check out his page and follow him for some good insight on the interview process in the tech industry.
+
+After finishing my course on TDD yesterday, I then started another course on a testing framework called Jasmine. The current cohort I'm assisting deals with Jasmine so I want to get more comfortable with exactly how Jasmine works. I will keep you posted!
+
+I have been continuing to build my poetry blog using React. I'm spending my time finding the right tools for this site since it is very special to me. I will be excited to share more information on it as it progresses. Right now, I'm working on displaying certain components depending on the device being used. It is a new concept for me, but I'm well on my way to achieving this.
+
+Keep up the good work, everyone! You should all be proud of your accomplishments so far! Little wins everyday!
