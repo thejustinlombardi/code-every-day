@@ -614,3 +614,13 @@ After finishing my course on TDD yesterday, I then started another course on a t
 I have been continuing to build my poetry blog using React. I'm spending my time finding the right tools for this site since it is very special to me. I will be excited to share more information on it as it progresses. Right now, I'm working on displaying certain components depending on the device being used. It is a new concept for me, but I'm well on my way to achieving this.
 
 Keep up the good work, everyone! You should all be proud of your accomplishments so far! Little wins everyday!
+
+## Day 46-53: March, 23, 2022
+
+### Today's Progress:
+
+This week had been jam packed with a lot of content. I've been continuing my studies with Jasmine testing. It has been very insightful from building out some new applications with testing along the way. The process is different, but I am getting the hang of the flow more now than when I first learned about testing.
+
+I also finished the JavaScript Data Structures and Algorithms course on Udemy! This is just scratching the surface on the concepts, but I feel more comfortable talking about them and being around them as well. My next steps are to try and incorporate them in my own problems and write tests to go along with them!
+
+My final talking point for this week is that I'm thankful to General Assembly for teaching me how to learn and approach new topics. There have been many new challenges since I have finished my Software Engineering Immersive and each challenge is that much more exciting. Before GA, I may have been worried or less confident approaching new topics, but now I embrace them and run at them. Never stop learning and trying new things!
